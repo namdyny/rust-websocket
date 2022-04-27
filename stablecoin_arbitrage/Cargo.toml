@@ -1,0 +1,17 @@
+[package]
+name = "stablecoin_arbitrage"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tungstenite = { version="0.17.2", features = ["native-tls"]}
+url = "2.1.0"
+
+[dev-dependencies]
+criterion = "0.3.4"
+env_logger = "0.9.0"
+input_buffer = "0.5.0"
+net2 = "0.2.37"
+rand = "0.8.4"
