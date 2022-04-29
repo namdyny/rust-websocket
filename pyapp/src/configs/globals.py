@@ -4,7 +4,15 @@
 BINANCE_WS_URL = "wss://stream.binance.com:9443/ws"
 
 SUBSCRIBING_PAIRS = [
-    "ETH",
+    "XVG",
+    "MULTI",
+    "AUTO",
+    "UTK",
+    "BAR",
+    "RARE",
+    "CTXC",
+        
+    # "ETH",
     # "BTC"
 ]
 # SUBSCRIBING_PAIRS = {
