@@ -10,10 +10,10 @@ import hmac
 import hashlib
 import math
 
-api_key = "5IbS2QSoOp5LqkbXgQraig0jSACjJjyZWlPthP0b2S82NmULmBNoflV1UomF5gOw"
+api_key = ""
 
 def get_signature(query_string):
-    secret = "0B5fmQ5T8VHwJ2n5I3p1qdpkrXVQVjo18hZWl3HCHd73LqSoaVJOK3ikWOHhXHzt"
+    secret = ""
     timestamp = int(time() * 1000)
     query_string = f"{query_string}&timestamp={timestamp}"
     signature = hmac.new(
