@@ -133,12 +133,12 @@ class Manager:
                         sleep(10)
                 else:
                     if arb_percentage > 0:
-                        print(f"%={Decimal(arb_percentage).quantize(Decimal('0.000001'))}")
+                        print(f"{pair}{buy_from} {pair}{sell_to} %={Decimal(arb_percentage).quantize(Decimal('0.000001'))}")
 
             except KeyError:
                 print(f"{pair}{buy_from} {pair}{sell_to} Price book not ready")
                 # print(format_exc())
-                sleep(5)
+                sleep(10)
 
             except: print(format_exc())
 
